@@ -1,10 +1,10 @@
-/*
+
 Here are my workings for the Summer of SQL Challenge # 2 - Danny's Diner
 I used SQL Server for this one.
-*/
---------------------------------------------------------
---------------------------------------------------------
 
+--------------------------------------------------------
+--------------------------------------------------------
+```sql
 CREATE TABLE sales (
   "customer_id" VARCHAR(1),
   "order_date" DATE,
@@ -77,12 +77,12 @@ Questions for Summer of SQL Challenge #2
 10 In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 */
 
-```sql
+
 --Q1: What is the total amount each customer spent at the restaurant?
 select * from sales;
 select * from menu;
 select * from members;
-```
+
 
 --get list of customers and the things they bought, with the price of each
 select 
