@@ -2,12 +2,13 @@ Here are my workings for the Summer of SQL Challenge # 2 - Danny's Diner
 I used SQL Server for this one.
 --------------------------------------------------------
 --------------------------------------------------------
-
+```sql
 CREATE TABLE sales (
   "customer_id" VARCHAR(1),
   "order_date" DATE,
   "product_id" INTEGER
 );
+```
 
 INSERT INTO sales
   ("customer_id", "order_date", "product_id")
