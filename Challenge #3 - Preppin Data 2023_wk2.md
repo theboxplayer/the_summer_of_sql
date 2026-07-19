@@ -1,3 +1,4 @@
+```sql
 /*
 Summer of SQL Challenge #3
 Preppin' Data exercise from 2023 week 2 Swift Codes
@@ -184,3 +185,4 @@ SELECT
 , CONCAT('GB', swift.check_digits, swift.swift_code, REPLACE(tx.sort_code,'-',''), CONVERT(varchar(30),tx.account_number)) AS 'IBAN'
 FROM "pd2023_wk02_transactions" AS tx LEFT JOIN "pd2023_wk02_swift_codes" AS swift
 ON tx.bank = swift.bank;
+```
