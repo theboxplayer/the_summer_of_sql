@@ -26,6 +26,8 @@ We want the records to be 1 ID per row, with that ID's joining date, Ethnicity, 
 In the end there's 1 duplicate record that we can filter out by assigning a row number and keeping only the 1's
 We use the PIVOT function to get the 3 demographics out of the rows and swung out to be columns instead (leave ID and joining date as-is)
 
+In a real scenario I would probably break this up into sections/modules instead of one big query using three CTEs to be able to trace things back - lots of transform happening so it's worth separating key steps as its shape changes
+
 */
 
 WITH CTE AS (
