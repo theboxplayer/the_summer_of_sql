@@ -1,8 +1,11 @@
+```sql
+/*
 Here are my workings for the Summer of SQL Challenge # 2 - Danny's Diner
 I used SQL Server for this one.
+*/
 --------------------------------------------------------
 --------------------------------------------------------
-```sql
+
 CREATE TABLE sales (
   "customer_id" VARCHAR(1),
   "order_date" DATE,
@@ -574,3 +577,5 @@ ORDER BY
 CUSTOMER_ID
 , ORDER_DATE
 , PRODUCT_NAME;
+
+```
