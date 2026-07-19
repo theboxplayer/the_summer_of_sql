@@ -1,3 +1,4 @@
+```sql
 /*
 Summer of SQL Challenge #3
 Preppin' Data exercise from 2023 week 4
@@ -19,3 +20,4 @@ Output the data
 Challenge source: 
 https://preppindata.blogspot.com/2023/01/2023-week-4-new-customers.html
 */
+```
