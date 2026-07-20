@@ -96,6 +96,7 @@ SELECT
 				demographic,
 				value
 			FROM PRE_PIVOT --[dbo].[pd2023_wk04_pre_pivot]
+--since there's a lot of transform here, I created a view of the data at this point to simplify the 3rd section (the PIVOT) at first, before putting them all into one single query
 		) AS source
 PIVOT
 (
