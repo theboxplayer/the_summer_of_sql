@@ -1,3 +1,5 @@
+--Pizza Runner Part A (https://8weeksqlchallenge.com/case-study-2/), as part of https://github.com/wjsutton/the_summer_of_sql
+
 select * from runners;
 select * from customer_orders; --exclusions and extras columns to be cleaned up
 select * from runner_orders;
