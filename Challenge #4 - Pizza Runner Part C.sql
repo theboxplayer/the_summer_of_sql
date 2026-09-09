@@ -671,14 +671,14 @@ This is using a unique ID for each pizza ordered (not the order id and pizza id)
 topping_name	ingredient_frequency
 Bacon	        12
 Mushrooms	    11
-Cheese	      10
-Chicken	      9
+Cheese	      	10
+Chicken	      	9
 Pepperoni	    9
-Salami	      9
+Salami	      	9
 Beef	        9
 BBQ Sauce	    8
-Peppers	      3
-Onions	      3
+Peppers	      	3
+Onions	      	3
 Tomato Sauce	3
 Tomatoes	    3
 
