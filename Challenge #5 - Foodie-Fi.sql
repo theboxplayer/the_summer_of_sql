@@ -1,6 +1,7 @@
 /*
 This challenge comes from https://8weeksqlchallenge.com/case-study-3/ as part of https://github.com/wjsutton/the_summer_of_sql
 Parts A and B only
+Used PostgreSQL / DBeaver
 */
 
 /*A. Customer Journey
